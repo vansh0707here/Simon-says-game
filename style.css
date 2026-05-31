@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px red;
+}
+
+h2{
+    color: #00ffff; /* cyan */
+    text-shadow: 2px 2px 8px black;
+}
+.btn{
+    height: 200px;
+    width:200px;
+    border-radius: 20%;
+    border:10px solid black;
+    margin:2.5rem;
+}
+.btn_container{
+    display:flex;
+    justify-content: center;
+
+}
+.yellow{
+    background-color: #f89b45;
+}
+.blue{
+    background-color: rgb(122, 122, 226);
+}
+.red{
+    background-color: #d95980;
+
+}
+.green{
+    background-color: rgb(123, 216, 123);
+}
+.flash{
+    background-color: white;
+} 
+body{
+    background-image: url("bgs.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+body.game-over{
+    background-image: none;
+    background-color: red;
+}
